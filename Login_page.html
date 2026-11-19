@@ -1,0 +1,341 @@
+ <style>
+    input[type=text]:focus {
+    border: 3px solid #555;
+     background-color: lightblue;
+     
+}
+</style>
+
+<style>
+    input[type=password]:focus {
+    border: 3px solid #555;
+     background-color: lightblue;
+}
+</style>
+<style>
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+</style>
+<style>
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+</style>
+  <style>
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 1em;
+  padding: 2.5px;
+  width: 65px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 0px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -10px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 20px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+<style>
+.button1 {
+	border-radius:5px;
+    position: relative;
+    background-color: #4CAF50;
+    border: none;
+    font-size: 1em;
+    color: #FFFFFF;
+    padding: 3px;
+    width: 75px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.button1:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.button1:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+</style>
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title> Art Gallery - Main Page | Login to access more ...</title>
+<meta charset="utf-8">
+<noscript>
+<link rel="stylesheet" href="css/5grid/core.css">
+<link rel="stylesheet" href="css/5grid/core-desktop.css">
+<link rel="stylesheet" href="css/5grid/core-1200px.css">
+<link rel="stylesheet" href="css/5grid/core-noscript.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style-desktop.css">
+</noscript>
+<script src="css/5grid/jquery.js"></script>
+<script src="css/5grid/init.js?use=mobile,desktop,1000px&amp;mobileUI=1&amp;mobileUI.theme=none"></script>
+<!--[if IE 9]>
+<link rel="stylesheet" href="css/style-ie9.css">
+<![endif]-->
+</head>
+<body class="homepage">
+   
+<div id="header-wrapper" style="float:left;width:50%">
+    
+  <header id="header">
+    <div class="5grid-layout">
+      <div class="row">
+        <div class="4u" id="logo">
+          <h1><a style="margin-left:6%" href="#" class="mobileUI-site-name">Art Gallery</a></h1>
+          <p></p>   
+        </div>
+        <div class="8u" id="menu">
+          
+        </div>
+      </div>
+    </div>
+  </header>
+</div>
+    
+    <div style="padding-top:2%;float:right">
+    <form action="check_login.jsp">
+
+ 
+        <div style="float:left">
+        <text style="font-size:.5 em">Username: </text><br>
+        <input type="text" name="uname" style="background:#F5F5DC;"></div> &nbsp &nbsp;
+        
+        <div style="float:left"><text align="left" style="font-size:.5 em;">Password: </text><br>
+        
+        <div style="float:left"><input type="password" name="pass" style="background:#F5F5DC;"></div></div>
+        
+       <div style="float:left"> <br><input type="submit"  class="button button2" value="Login">
+        
+        <a href="new_user.jsp"><input type="button" style="background:green" class="button button2" value="Sign Up"></a></div>
+
+
+       </form>
+ 
+  <br><a href="forgot_password.jsp" style="clear:both;color:#2F4F4F;font-size:15px">forgot password?</a>
+  </div>
+    
+<div style="height:3%;clear:both; width:100%">
+    <div style="height:8%;background:brown;clear:both; width:100%"><Marquee style="color:lightbrown"></marquee></div>
+</div>
+
+    <div align="center">
+<link href="css/js-image-slider.css" rel="stylesheet" type="text/css" />
+<script src="css/js-image-slider.js" type="text/javascript"></script>
+<div id="sliderFrame"><div id="slider" style="width:100%;float:left">
+			<img src="css/11.jpg" alt="Ralph Waldo Emerson - Every artist was first an amateur." />
+			<img src="css/12.jpg" alt="Henri Matisse - Creativity takes courage." />
+			<img src="css/13.jpg" alt="Thomas Merton - Art enables us to find ourselves and lose ourselves at the same time." />
+			<img src="css/14.jpg" alt="Pablo Picasso - Every child is an artist. The problem is how to remain an artist once we grow up." />
+			<img src="css/15.jpg" alt="Ansel Adams - You do not take a photograph, you make it." />
+			<img src="css/16.jpg" alt="Jerzy Kosinski - The principles of true art is not to portray, but to evoke." />
+			</div></div>
+
+
+
+<div style="height:4%;clear:both; width:100%">
+   <br><br> <div style="height:6%;background:brown;clear:both; width:100%"><Marquee style="color:lightbrown"></marquee></div>
+</div>
+
+<div style="height:4%;clear:both; width:100%">
+   <br><br> <div style="height:0%;background:brown;clear:both; width:100%"><Marquee style="color:lightbrown"></marquee></div>
+</div>
+
+  <div>
+    <div class="5grid-layout" id="page">
+      <div class="row">
+        <div class="6u">
+          <div class="mobileUI-main-content" id="content">
+            <section>
+              <div class="post">
+                <h2>Royal Academy of Arts</h2>
+                <p><a href="#"><img src="images/art1.jpg" alt=""></a><br>
+                The oldest college in Britain, offering one of the most extensive studies in art and design, and features the oldest life drawing studio in the country.
+                Studies can immerse themselves in different art mediums like painting, digital media, installation and time-based art, or choosing to try new technology like the digital media workstations. It is solely for the most talented due to limited seats and no tuition fees.  
+                <p class="button-style2"><a href="https://www.royalacademy.org.uk/">Read Full Article</a></p>
+              </div>
+            </section>
+          </div>
+        </div>
+        <div class="3u" id="sidebar1">
+          <section>
+            <h2>Painters of all time</h2>
+            <ul class="style2">
+              <li class="first">
+                  <p><a href="http://www.biographyonline.net/artists/top-10-painters.html"><img src="images/ap1.jpg" height="55" width="55" alt="">Leonardo Da Vinci (1452–1519)</a></p>
+              </li>
+              <li>
+                <p><a href="http://www.biographyonline.net/artists/vincent-van-gogh.html"><img src="images/ap2.jpg" height="55" width="55" alt="">Van Gogh (1853–1890)  </a></p>
+              </li>
+              <li>
+                <p><a href="http://www.biographyonline.net/artists/rembrandt.html"><img src="images/ap3.jpg" height="55" width="55" alt=""> Rembrandt (1606–1669) </a></p>
+              </li>
+              <li>
+                <p><a href="http://www.biographyonline.net/artists/michelangelo.html"><img src="images/ap4.jpg" height="55" width="55" alt=""> Michelangelo (1475–1564) </a></p>
+              </li>
+         
+              <li>
+                <p><a href="http://www.biographyonline.net/artists/claude-monet.html"><img src="images/ap5.jpg" height="55" width="55" alt=""> Claude Monet (1840–1926) </a></p>
+              </li>
+              <li>
+                <p><a href="http://www.biographyonline.net/artists/botticello.html"><img src="images/ap6.jpg" height="55" width="55" alt="">Botticelli (1445 – 1510) </a></p>
+              </li>
+              
+              <li>
+                <p><a href="http://www.biographyonline.net/artists/raphael.html"><img src="images/ap7.jpg" height="55" width="55" alt="">Raphael (1483 – 1520) </a></p>
+              </li>
+              
+              <li>
+                <p><a href="http://www.biographyonline.net/artists/carvaggio.html"><img src="images/ap8.jpg" height="55" width="55" alt=""> Caravaggio (1571– 1610) </a></p>
+              </li>
+              
+              
+            </ul>
+          </section>
+        </div>
+        <div class="3u">
+          <div id="sidebar2">
+            <section>
+              <div class="sbox1">
+                <h2>Top Art Colleges in World</h2>
+                <ul class="style1">
+                  <li class="first"><a href="http://www.risd.edu/"> Rhode Island School of Design</a></li>
+                  <li><a href="https://calarts.edu/">California Institute of the Arts</a></li>
+                  <li><a href="http://www.kunstakademie-duesseldorf.de/">Staatliche Kunstakademie Düsseldorf</a></li>
+                  <li><a href="http://www.eca.ed.ac.uk/">Edinburgh College of Art</a></li>
+                  <li><a href="http://www.khio.no/en">Oslo National Academy of the Arts</a></li>
+                </ul>
+              </div>
+            </section>
+            <section>
+              <div class="sbox2">
+                <h2>Top Art Colleges in India</h2>
+                <ul class="style1">
+                  <li class="first"><a href="#">Lady Shri Ram College (LSR), New Delhi</a></li>
+                  <li><a href="#">St. Stephen's College, New Delhi</a></li>
+                  <li><a href="#">Christ University, Bangalore</a></li>
+                  <li><a href="#"> Loyola College, Chennai</a></li>
+                  <li><a href="#"> Miranda House, New Delhi </a></li>
+                  <li><a href="#">Hansraj College, Delhi</a></li>
+                  <li><a href="#">Madras Christian College (MCC), Chennai</a></li>
+                  <li><a href="#">Sri Ram College of Commerce, Delhi</a></li>
+                </ul>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="featured-area">
+  <div class="5grid-layout">
+    <div class="row divider">
+      <div class="4u">
+        <section>
+          <div class="box-style"> <a href="#"><img src="images/la1.jpg" alt=""></a>
+            <h3> Bhimbetka and Daraki-Chattan</h3>
+            <p>One of the oldest prehistoric art ever discovered dated around 700,000 BCE is almost 4 times older than the Blombos Cave art.
+                It was discovered in two ancient quartzite caves in the Madhya Pradesh region of central India.
+            Cave art was widely common at that time or arguably the only thing that is preserved from the natural occurrence in the history.</p>
+            <p class="button-style2"><a href="http://www.ancienthistorylists.com/pre-history/top-10-oldest-art-ever-discovered/#ixzz4ftpDenrq">More</a></p>
+          </div>
+        </section>
+      </div>
+      <div class="4u">
+        <section>
+          <div class="box-style"> <a href="#"><img src="images/la2.jpg" alt=""></a>
+            <h3>Mona Lisa</h3>
+            <p>The famous and mysterious Mona Lisa is painted by the great Leonardo Da Vinci between the years 1503 to 1519.
+                There are many theories and stories that go with this painting.
+                Other says it is a self-portrait of Da Vinci.
+                It is now displayed in Louvre, Paris and is one of the most visited pieces of art in the entire city. </p>
+            <p class="button-style2"><a href="http://the-artists.org/artarticle/most-viewed-paintings-in-the-world">More</a></p>
+          </div>
+        </section>
+      </div>
+      <div class="4u">
+        <section>
+          <div class="box-style"> <a href="#"><img src="images/la3.jpg" alt=""></a>
+            <h3>Dora Budor</h3>
+            <p>Screen-used miniature living garages from “The Fifth Element” (1997), steel armature, epoxy clay,
+                diseased latex prosthetics, acrylic polymer with pigment suspension, sfx and weathering paint, assorted metal hardware.
+            Dora Budor - One Million Years of Feeling Nothing, 2015, <br>Dora Budor : "Spring" at Swiss Institute, New York</p>
+            <p class="button-style2"><a href="https://www.artsy.net/artwork/dora-budor-one-million-years-of-feeling-nothing">More</a></p>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+    
+    
+  <div class="5grid-layout" id="copyright">
+
+      <div class="12u">
+        <p>&copy; <a href="#">Art gallery</a> | <a href="#">Oops Infotech Pvt Ltd.</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
